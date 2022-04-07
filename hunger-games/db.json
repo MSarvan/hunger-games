@@ -7,7 +7,7 @@
             "cost_for_two" : 250,
             "payment_method" : {
                 "cash" : true, 
-                "card" : true
+                "card" : false
             },
             "rating" : "4.5",
             "reviews" : "150 reviews",
@@ -32,7 +32,7 @@
             "category" : "Pizza, Desert, Continental, Asian",
             "cost_for_two" : 750,
             "payment_method" : {
-                "cash" : true, 
+                "cash" : false, 
                 "card" : true
             },
             "rating" : "3.5",
@@ -59,7 +59,7 @@
             "cost_for_two" : 400,
             "payment_method" : {
                 "cash" : true, 
-                "card" : true
+                "card" : false
             },
             "rating" : "2.5",
             "reviews" : "100 reviews",
@@ -71,7 +71,7 @@
             "category" : "Pizza, Desert, Continental, Asian",
             "cost_for_two" : 300,
             "payment_method" : {
-                "cash" : true, 
+                "cash" : false, 
                 "card" : true
             },
             "rating" : "3.8",
@@ -98,7 +98,7 @@
             "cost_for_two" : 350,
             "payment_method" : {
                 "cash" : true, 
-                "card" : true
+                "card" : false
             },
             "rating" : "3.5",
             "reviews" : "180 reviews",
@@ -110,7 +110,7 @@
             "category" : "Pizza, Desert, Continental, Asian",
             "cost_for_two" : 650,
             "payment_method" : {
-                "cash" : true, 
+                "cash" : false, 
                 "card" : true
             },
             "rating" : "2.5",
@@ -137,7 +137,7 @@
             "cost_for_two" : 250,
             "payment_method" : {
                 "cash" : true, 
-                "card" : true
+                "card" : false
             },
             "rating" : "4.5",
             "reviews" : "150 reviews",
@@ -149,7 +149,7 @@
             "category" : "Pizza, Desert, Continental, Asian",
             "cost_for_two" : 500,
             "payment_method" : {
-                "cash" : true, 
+                "cash" : false, 
                 "card" : true
             },
             "rating" : "4",
@@ -176,7 +176,7 @@
             "cost_for_two" : 350,
             "payment_method" : {
                 "cash" : true, 
-                "card" : true
+                "card" : false
             },
             "rating" : "4.5",
             "reviews" : "250 reviews",
@@ -188,7 +188,7 @@
             "category" : "Pizza, Desert, Continental, Asian",
             "cost_for_two" : 400,
             "payment_method" : {
-                "cash" : true, 
+                "cash" : false, 
                 "card" : true
             },
             "rating" : "2.5",
@@ -215,7 +215,7 @@
             "cost_for_two" : 550,
             "payment_method" : {
                 "cash" : true, 
-                "card" : true
+                "card" : false
             },
             "rating" : "1.5",
             "reviews" : "50 reviews",
@@ -227,7 +227,7 @@
             "category" : "Pizza, Desert, Continental, Asian",
             "cost_for_two" : 350,
             "payment_method" : {
-                "cash" : true, 
+                "cash" : false, 
                 "card" : true
             },
             "rating" : "3.5",
@@ -254,7 +254,7 @@
             "cost_for_two" : 1050,
             "payment_method" : {
                 "cash" : true, 
-                "card" : true
+                "card" : false
             },
             "rating" : "3",
             "reviews" : "180 reviews",
