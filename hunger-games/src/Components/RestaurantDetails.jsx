@@ -18,6 +18,24 @@ const RestaurantDetails = () => {
                 details.map((e) => {
                     return (
                         <div className='border'>
+                            <div className='btns'>
+                                <div className='page'>
+                                    <button>1</button>
+                                    <button>2</button>
+                                    <button>3</button>
+                                    <button>4</button>
+                                </div>
+                                <div className='rating-filter'>
+                                    <button>4 and above</button>
+                                    <button>3 and above</button>
+                                    <button>2 and above</button>
+                                    <button>1 and above</button>
+                                </div>
+                                <div className='payment-filter'>
+                                    <button>Cash</button>
+                                    <button></button>
+                                </div>
+                            </div>
                             <img src={e.img} alt="" />
                             <div className='name-div'>
                                 <p className='bold-txt'>{e.name}</p>
