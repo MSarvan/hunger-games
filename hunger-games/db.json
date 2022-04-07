@@ -1,0 +1,265 @@
+{
+    "get-restaurants": [    
+        {
+            "img" : "https://www.crazymasalafood.com/wp-content/images/hotel-sangam.jpg",
+            "name": "Sangam Restaurant",
+            "category" : "Pizza, Desert , Continental, Asian",
+            "cost_for_two" : 250,
+            "payment_method" : {
+                "cash" : true, 
+                "card" : true
+            },
+            "rating" : "4.5",
+            "reviews" : "150 reviews",
+            "votes" : 400
+        },
+        {
+            "img" : "https://www.crazymasalafood.com/wp-content/images/spice-hablis.jpg",
+            "name": "The spice-Hablis",
+            "category" : "Pizza, Desert , Continental, Asian",
+            "cost_for_two" : 500,
+            "payment_method" : {
+                "cash" : true, 
+                "card" : true
+            },
+            "rating" : "4",
+            "reviews" : "180 reviews",
+            "votes" : 400
+        },
+        {
+            "img" : "https://www.crazymasalafood.com/wp-content/images/venu-biriyani.jpg",
+            "name": "Venu Biriyani",
+            "category" : "Pizza, Desert , Continental, Asian",
+            "cost_for_two" : 750,
+            "payment_method" : {
+                "cash" : true, 
+                "card" : true
+            },
+            "rating" : "3.5",
+            "reviews" : "200 reviews",
+            "votes" : 400
+        },
+        {
+            "img" : "https://www.crazymasalafood.com/wp-content/images/benjarong-1.jpg",
+            "name": "Benjarong",
+            "category" : "Pizza, Desert , Continental, Asian",
+            "cost_for_two" : 350,
+            "payment_method" : {
+                "cash" : true, 
+                "card" : true
+            },
+            "rating" : "4.5",
+            "reviews" : "250 reviews",
+            "votes" : 400
+        },
+        {
+            "img" : "https://www.crazymasalafood.com/wp-content/images/oasis-restaurant.jpg",
+            "name": "Oasis Restaurant",
+            "category" : "Pizza, Desert , Continental, Asian",
+            "cost_for_two" : 400,
+            "payment_method" : {
+                "cash" : true, 
+                "card" : true
+            },
+            "rating" : "2.5",
+            "reviews" : "100 reviews",
+            "votes" : 100
+        },
+        {
+            "img" : "https://www.crazymasalafood.com/wp-content/images/lattitude-49.jpg",
+            "name": "Lattitude 49",
+            "category" : "Pizza, Desert , Continental, Asian",
+            "cost_for_two" : 300,
+            "payment_method" : {
+                "cash" : true, 
+                "card" : true
+            },
+            "rating" : "3.8",
+            "reviews" : "180 reviews",
+            "votes" : 400
+        },
+        {
+            "img" : "https://www.crazymasalafood.com/wp-content/images/green-spicy-restaurant.jpg",
+            "name": "Green spicy restaurant",
+            "category" : "Pizza, Desert , Continental, Asian",
+            "cost_for_two" : 550,
+            "payment_method" : {
+                "cash" : true, 
+                "card" : true
+            },
+            "rating" : "1.5",
+            "reviews" : "50 reviews",
+            "votes" : 200
+        },
+        {
+            "img" : "https://www.crazymasalafood.com/wp-content/images/Nando-s.jpg",
+            "name": "Nandos",
+            "category" : "Pizza, Desert , Continental, Asian",
+            "cost_for_two" : 350,
+            "payment_method" : {
+                "cash" : true, 
+                "card" : true
+            },
+            "rating" : "3.5",
+            "reviews" : "180 reviews",
+            "votes" : 200
+        },
+        {
+            "img" : "https://www.crazymasalafood.com/wp-content/images/aachees-restaurant.jpg",
+            "name": "Aachees Restaurant",
+            "category" : "Pizza, Desert , Continental, Asian",
+            "cost_for_two" : 650,
+            "payment_method" : {
+                "cash" : true, 
+                "card" : true
+            },
+            "rating" : "2.5",
+            "reviews" : "150 reviews",
+            "votes" : 400
+        },
+        {
+            "img" : "https://www.crazymasalafood.com/wp-content/images/tovo-infusion.jpg",
+            "name": "Tovo infusion",
+            "category" : "Pizza, Desert , Continental, Asian",
+            "cost_for_two" : 1050,
+            "payment_method" : {
+                "cash" : true, 
+                "card" : true
+            },
+            "rating" : "3",
+            "reviews" : "180 reviews",
+            "votes" : 300
+        },
+        {
+            "img" : "https://www.crazymasalafood.com/wp-content/images/hotel-sangam.jpg",
+            "name": "Sangam Restaurant",
+            "category" : "Pizza, Desert , Continental, Asian",
+            "cost_for_two" : 250,
+            "payment_method" : {
+                "cash" : true, 
+                "card" : true
+            },
+            "rating" : "4.5",
+            "reviews" : "150 reviews",
+            "votes" : 400
+        },
+        {
+            "img" : "https://www.crazymasalafood.com/wp-content/images/spice-hablis.jpg",
+            "name": "The spice-Hablis",
+            "category" : "Pizza, Desert , Continental, Asian",
+            "cost_for_two" : 500,
+            "payment_method" : {
+                "cash" : true, 
+                "card" : true
+            },
+            "rating" : "4",
+            "reviews" : "180 reviews",
+            "votes" : 400
+        },
+        {
+            "img" : "https://www.crazymasalafood.com/wp-content/images/venu-biriyani.jpg",
+            "name": "Venu Biriyani",
+            "category" : "Pizza, Desert , Continental, Asian",
+            "cost_for_two" : 750,
+            "payment_method" : {
+                "cash" : true, 
+                "card" : true
+            },
+            "rating" : "3.5",
+            "reviews" : "200 reviews",
+            "votes" : 400
+        },
+        {
+            "img" : "https://www.crazymasalafood.com/wp-content/images/benjarong-1.jpg",
+            "name": "Benjarong",
+            "category" : "Pizza, Desert , Continental, Asian",
+            "cost_for_two" : 350,
+            "payment_method" : {
+                "cash" : true, 
+                "card" : true
+            },
+            "rating" : "4.5",
+            "reviews" : "250 reviews",
+            "votes" : 400
+        },
+        {
+            "img" : "https://www.crazymasalafood.com/wp-content/images/oasis-restaurant.jpg",
+            "name": "Oasis Restaurant",
+            "category" : "Pizza, Desert , Continental, Asian",
+            "cost_for_two" : 400,
+            "payment_method" : {
+                "cash" : true, 
+                "card" : true
+            },
+            "rating" : "2.5",
+            "reviews" : "100 reviews",
+            "votes" : 100
+        },
+        {
+            "img" : "https://www.crazymasalafood.com/wp-content/images/lattitude-49.jpg",
+            "name": "Lattitude 49",
+            "category" : "Pizza, Desert , Continental, Asian",
+            "cost_for_two" : 300,
+            "payment_method" : {
+                "cash" : true, 
+                "card" : true
+            },
+            "rating" : "3.8",
+            "reviews" : "180 reviews",
+            "votes" : 400
+        },
+        {
+            "img" : "https://www.crazymasalafood.com/wp-content/images/green-spicy-restaurant.jpg",
+            "name": "Green spicy restaurant",
+            "category" : "Pizza, Desert , Continental, Asian",
+            "cost_for_two" : 550,
+            "payment_method" : {
+                "cash" : true, 
+                "card" : true
+            },
+            "rating" : "1.5",
+            "reviews" : "50 reviews",
+            "votes" : 200
+        },
+        {
+            "img" : "https://www.crazymasalafood.com/wp-content/images/Nando-s.jpg",
+            "name": "Nandos",
+            "category" : "Pizza, Desert , Continental, Asian",
+            "cost_for_two" : 350,
+            "payment_method" : {
+                "cash" : true, 
+                "card" : true
+            },
+            "rating" : "3.5",
+            "reviews" : "180 reviews",
+            "votes" : 200
+        },
+        {
+            "img" : "https://www.crazymasalafood.com/wp-content/images/aachees-restaurant.jpg",
+            "name": "Aachees Restaurant",
+            "category" : "Pizza, Desert , Continental, Asian",
+            "cost_for_two" : 650,
+            "payment_method" : {
+                "cash" : true, 
+                "card" : true
+            },
+            "rating" : "2.5",
+            "reviews" : "150 reviews",
+            "votes" : 400
+        },
+        {
+            "img" : "https://www.crazymasalafood.com/wp-content/images/tovo-infusion.jpg",
+            "name": "Tovo infusion",
+            "category" : "Pizza, Desert , Continental, Asian",
+            "cost_for_two" : 1050,
+            "payment_method" : {
+                "cash" : true, 
+                "card" : true
+            },
+            "rating" : "3",
+            "reviews" : "180 reviews",
+            "votes" : 300
+        }
+    ]
+  }
+  
