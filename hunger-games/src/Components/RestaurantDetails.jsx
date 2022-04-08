@@ -1,18 +1,25 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import "../Styles/RestaurantDetails.css";
+import { nanoid } from "nanoid"
 
 const RestaurantDetails = () => {
   const [details, setDetails] = useState([]);
   const [toshow, setToshow] = useState([]);
-  console.log("toshow:", toshow);
+  //console.log("toshow:", toshow);
+  const [page, setPage] = useState(1);
+  const perpage = 5;
 
-  useEffect(() => {
-    axios.get("http://localhost:2345/get-restaurants").then((res) => {
+  const fetchData = (page, perpage) => {
+    axios.get(`http://localhost:2345/get-restaurants?_page=${page}&_limit=${perpage}`).then((res) => {
       setDetails(res.data);
       setToshow(res.data);
     });
-  }, []);
+  }
+
+  useEffect(() => {
+    fetchData(page, perpage)
+  }, [page]);
 
   function handleRating(a) {
     if (a == 4) {
@@ -60,36 +67,52 @@ const RestaurantDetails = () => {
       setToshow(temp);
       //console.log('temp:', temp);
     }
+
+    if (val == 1) {
+        // high to low
+        let temp = [...toshow];
+        temp.sort((a, b) => b.cost_for_two - a.cost_for_two);
+        setToshow(temp);
+        //console.log('temp:', temp);
+      }
   }
 
   const paymentFilter = (inp) => {
       if(inp == "cash")
       {
-        let temp = toshow.filter((items) => {
+        let temp = details.filter((items) => {
              if (items.payment_method.cash) {
                  return items;
                }
             });
+            setToshow(temp);
       }
 
       if(inp == "card")
       {
-        let temp = toshow.filter((items) => {
+        let temp = details.filter((items) => {
             if (items.payment_method.card) {
               return items;
             }
         });
+        setToshow(temp);
       }
+
+      if(inp == "all")
+      {
+        setToshow(details);
+      }
+
   }
 
   return (
     <div>
       <div className="btns">
         <div className="page">
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>4</button>
+          <button onClick={() => setPage(1)}>1</button>
+          <button onClick={() => setPage(2)}>2</button>
+          <button onClick={() => setPage(3)}>3</button>
+          <button onClick={() => setPage(4)}>4</button>
         </div>
         <div className="rating-filter">
           <button onClick={() => handleRating(4)}>4 and above</button>
@@ -98,9 +121,9 @@ const RestaurantDetails = () => {
           <button onClick={() => handleRating(1)}>1 and above</button>
         </div>
         <div className="payment-filter">
-          <button onClick={() => paymentFilter(cash)}>Cash</button>
-          <button onClick={() => paymentFilter(card)}>Card</button>
-          <button onClick={() => paymentFilter(all)}>All</button>
+          <button onClick={() => paymentFilter("cash")}>Cash</button>
+          <button onClick={() => paymentFilter("card")}>Card</button>
+          <button onClick={() => paymentFilter("all")}>All</button>
         </div>
         <div className="cost-filter">
           <button onClick={() => costSorting(0)}>Cost - Low to High</button>
@@ -110,7 +133,7 @@ const RestaurantDetails = () => {
 
       {toshow.map((e) => {
         return (
-          <div className="border">
+          <div key={nanoid()} className="border">
             <img src={e.img} alt="" />
             <div className="name-div">
               <p className="bold-txt">{e.name}</p>
@@ -122,6 +145,7 @@ const RestaurantDetails = () => {
               <p>{e.reviews}</p>
               <p>{e.votes} votes</p>
             </div>
+            <button className="order-btn">Order</button>
           </div>
         );
       })}
